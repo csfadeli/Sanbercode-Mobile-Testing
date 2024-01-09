@@ -7,12 +7,7 @@ Test Setup       Run Keywords
 ...              Open Flight Application
 ...              AND    Login With Valid Credentials
 Test Teardown    Close Flight Application
-Library          OperatingSystem
-
-*** Variables ***
-${VALID_EMAIL}        support@ngendigital.com
-${VALID_PASSWORD}     abc123
-    
+Library          OperatingSystem    
 
 *** Test Case ***
 User should be able to search flight number
@@ -20,3 +15,9 @@ User should be able to search flight number
     Input Flight Number
     Click Search
     Verify Flight Details Appears
+
+User should not be able to search using invalid flight number
+    Click Search In Home Page
+    Input Invalid Flight Number
+    Click Search
+    Verify User Can't Search
