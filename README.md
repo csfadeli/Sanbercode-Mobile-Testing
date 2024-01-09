@@ -15,12 +15,15 @@ Member of group 16:
 ## Test Case
 1. Login
     - User should be able to login with valid credentials   **Cynthia**
+    - User should not be able to login - blank field    **Cynthia**
 
 2. Book
     - One Way
         - User should be able to book flight - One Way, New York to Paris, Economy Class, Flight only   **Cynthia**
         - User should be able to book flight - One Way, Chicago to Ottawa, Business Class, Flight only  **Cynthia**
         - User should be able to book flight - One Way, Toronto to London, First Class, Flight only, with Day   **Cynthia**
+        - User should be able to book flight - One Way, Chicago to London, Business Class, Flight + hotel, with Day    **Cynthia**
+        - User should be able to book flight - One Way, New York to Ottawa, First Class, Flight + hotel     **Cynthia**
 
 3. Search
     - User should be able to search flight number    **Cynthia**
