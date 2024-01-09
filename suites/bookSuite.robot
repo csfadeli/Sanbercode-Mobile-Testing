@@ -59,3 +59,38 @@ User should be able to book flight - One Way, Toronto to London, First Class, Fl
     Choose Price 1
     Click Confirm Order
     Verify Order Is Sucess
+
+User should be able to book flight - One Way, Chicago to London, Business Class, Flight + hotel, with Day
+    Click Book Button On Home Page
+    Verify Book Page Appears
+    Click From City
+    Choose From City - Chicago
+    Click To City
+    Choose To City - London
+    Click Class
+    Choose Class - Business
+    Click Start Date
+    Choose The Start Date
+    Choose "Flight + hotel"
+    Choose "Day"
+    Click Book
+    Choose Price 1
+    Click Confirm Order
+    Verify Order Is Sucess
+
+User should be able to book flight - One Way, New York to Ottawa, First Class, Flight + hotel
+    Click Book Button On Home Page
+    Verify Book Page Appears
+    Click From City
+    Choose From City - New York
+    Click To City
+    Choose To City - Ottawa
+    Click Class
+    Choose Class - First
+    Click Start Date
+    Choose The Start Date
+    Choose "Flight + hotel"
+    Click Book
+    Choose Price 1
+    Click Confirm Order
+    Verify Order Is Sucess
