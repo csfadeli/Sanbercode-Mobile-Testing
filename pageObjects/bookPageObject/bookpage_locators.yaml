@@ -1,0 +1,50 @@
+textonBook_bookPage: '//android.widget.TextView[@text="ONE WAY"]'
+
+# Untuk pilihan "From City"
+fromcity: '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerFrom"]'
+newyork: '//android.widget.TextView[@resource-id="android:id/text1" and @text="New York"]'
+chicago: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Chicago"]'
+toronto: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Toronto"]'
+
+# Untuk pilihan "To City"
+tocity: '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerTo"]'
+london: '//android.widget.TextView[@resource-id="android:id/text1" and @text="London"]'
+paris: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Paris"]'
+ottawa: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Ottawa"]'
+
+# Untuk pilihan "Class"
+class: '//android.widget.Spinner[@resource-id="com.example.myapplication:id/spinnerClass"]'
+economy: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Economy"]'
+business: '//android.widget.TextView[@resource-id="android:id/text1" and @text="Business"]'
+first: '//android.widget.TextView[@resource-id="android:id/text1" and @text="First"]'
+
+# Untuk Date
+open_startdate: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textStartDate"]'
+choose_startdate: '//android.view.View[@content-desc="08 August 2019"]'
+open_enddate: '//android.widget.TextView[@resource-id="com.example.myapplication:id/textEndDate"]'
+choose_enddate: '//android.view.View[@content-desc="10 August 2019"]'
+click_ok: '//android.widget.Button[@resource-id="android:id/button1"]'
+
+# Untuk click "book"
+book_Button: '//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]'
+
+# Untuk radio button & check box (flight, flight + hotel, check box day)
+flight_Button: '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'
+flighthotel_Button: '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]'
+day_button: '//android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]'
+
+# Untuk page price
+flightimage: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView5"]'
+price1: '//android.widget.Button[@resource-id="com.example.myapplication:id/price1"]'
+price2: '//android.widget.Button[@resource-id="com.example.myapplication:id/price2"]'
+price3: '//android.widget.Button[@resource-id="com.example.myapplication:id/price3"]'
+price4: '//android.widget.Button[@resource-id="com.example.myapplication:id/price4"]'
+price5: '//android.widget.Button[@resource-id="com.example.myapplication:id/price5"]'
+price6: '//android.widget.Button[@resource-id="com.example.myapplication:id/price6"]'
+price7: '//android.widget.Button[@resource-id="com.example.myapplication:id/price7"]'
+price8: '//android.widget.Button[@resource-id="com.example.myapplication:id/price8"]'
+price9: '//android.widget.Button[@resource-id="com.example.myapplication:id/price9"]'
+
+# Untuk proses confirm order
+confirmorder_Button: '//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]'
+confirmorder_text: '//android.widget.CheckedTextView[@resource-id="com.example.myapplication:id/checkedTextView"]'
